@@ -52,12 +52,18 @@ h1 {
     
 }
 
+.quadrado {
+
+    position: absolute;
+    top: 30%;
+}
+
 
 .item {
 
     border-collapse: collapse;
    margin-top: 100%;
-    border: 1px solid #C8AA86;
+    /* border: 1px solid #C8AA86; */
     text-align: center;
     font-size: 1.25em;
     font-weight: normal;
@@ -68,15 +74,23 @@ table,th,td {
     border: 2px solid #C8AA86;
 }
 
-table {
+table  {
 
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 10%;
-    border-collapse: collapse;
-    width: 50%;
-    height: 50%;
-    border: 1px solid;
+    /* border-collapse: collapse; */
+    width: 90%;
+    height: 90%;
     text-align: center;
+    border-collapse: separate;
+    border-spacing: 10px ;
 }
+
+table td {
+
+}
+
+
+
 
